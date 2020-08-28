@@ -21,8 +21,10 @@ public class Program {
 		System.out.println(d);
 		int minutes = cal.get(Calendar.MINUTE);
 		int month = 1 + cal.get(Calendar.MONTH);
+		int year = cal.get(Calendar.YEAR);
 		System.out.println("Minutes: " + minutes);
 		System.out.println("Month: " + month);
+		System.out.println("Year: " + year);
 	}
 	
 
